@@ -1,0 +1,13 @@
+//Item Class:
+Id - String
+Price - Double
+Description - String
+
+//Vending Class:
+-Extends HashMap-
+Key - String
+Value - Item Class
+
+Method - Dispense Item ( Dollar Amt )
+-Check if have enough money-
+-Calc Change-
