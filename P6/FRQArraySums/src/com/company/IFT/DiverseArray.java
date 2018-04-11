@@ -32,12 +32,13 @@ public class DiverseArray
 
     public static int[] rowSums( int[][] arr2D )
     {
+        int[] sums = new int[arr2D.length];
         for(int r=0; r<arr2D.length; r++) {
             for (int c = 0; c < arr2D[r].length; c++) {
-                return new int[] {arraySum(arr2D[r])};
+                sums[r] = arraySum(arr2D[r]);
             }
         }
-        return null;
+        return sums;
     }
 
 
